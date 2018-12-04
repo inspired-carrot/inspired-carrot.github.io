@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:600|Noto+Sans+TC&subset=japanese');
+
+body {
+	margin: 0;
+	font-family: 'Noto Sans TC', sans-serif;
+	letter-spacing: 0.4px;
+}
+
+section h2 {
+	text-align: center;
+	font-size: 36px;
+}
+
+nav {
+	background: #5DBCD2;
+}
+
+.navigation {
+	justify-content: space-between;
+	display: flex;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	margin: auto;
+}
+
+header {
+	background: url('images/sand.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 30px;
+}
+
+header img {
+	border-radius: 50%;
+	float: left;
+}
+
+header .text-container {
+	background-color: rgba(255,255,255,0.1);
+	padding-top: 20px;
+	border-radius: 8px;
+	clear: right;
+	margin-left: 260px;
+	margin-right: 25px;
+	text-align: justify;
+}
+
+header h1 {
+	text-align: center; 
+}
+header p {
+	padding: 20px;
+}
+
+article {
+	max-width: 850px;
+	width: 100%;
+	padding: 20px;
+}
+
+article section {
+
+	border-radius: 30px;
+	background-color: rgba(255,255,255, 0.7);
+
+	/*padding: 10px;*/
+	/*margin: 10px;*/
+	float: left;
+}
+
+.sidebar {
+
+	border-radius: 30px;
+	background-color: rgba(255,255,255, 0.7);
+	/*margin: auto;*/
+	width: 100%;
+	max-width: 300px;
+	clear: left;
+}
+
+.sub-head {
+	/*float: left;*/
+}
+
+.container-fluid {
+	background:	#ffcccc;
+}
+
+.quotes img {
+	width: 450px;
+	height: 250px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	border-radius: 25px;
+}
+
+.img1 {
+	width: 250px;
+	height: 350px;
+	border-radius: 35px;
+	position: relative;
+	background-image: url('images/korean.jpg');
+	opacity: 0.75;
+}
+
+.img2 {
+	width: 250px;
+	height: 350px;
+	border-radius: 35px;
+	position: relative;
+	background-image: url('images/beach2.jpg');
+	opacity: 0.85;
+}
+
+.img3 {
+	width: 250px;
+	height: 350px;
+	border-radius: 35px;
+	position: relative;
+	background-image: url('images/food.jpg');
+	opacity: 0.85;
+}
+
+footer {
+	background: #ffcccc;
+	clear: both;
+}
+
+.images{
+	/*float: left;*/
+}
+
+.quotes {
+	/*float: left;*/
+}
+
+.sidebar {
+	clear: both;
+}
+
+.image-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.overlay-text {
+	text-align: center;
+	color: #fafafa;
+	font-family: 'Dosis', sans-serif;
+	font-size: 50px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.btn {
+	font-family: 'Noto Sans TC', sans-serif;
+	color: white;
+	background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
