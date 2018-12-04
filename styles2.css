@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:600|Noto+Sans+TC&subset=japanese');
+
+.item2 { 
+	grid-area: subhead1; 
+}
+.item2 p {
+	font-size: 18px;
+}
+
+.item3 { 
+	grid-area: subhead2; 
+}
+.item3 p {
+	font-size: 18px;
+}
+
+.btn {
+	color: white;
+	background-color: transparent;
+}
+
+.navigation {
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	background: cornflowerblue;
+}
+.navigation a {
+	color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'subhead1 subhead1 subhead1 subhead1 subhead1 subhead1 subhead1'
+    'subhead2 subhead2 subhead2 subhead2  subhead2  subhead2  subhead2';
+  grid-gap: 5px;
+  width: 70%;
+  margin: auto;
+  padding: 5px;
+  float: left;
+
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.top-head {
+	background-image: url("images/sand.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+ body {
+ 	font-family: 'Noto Sans TC', sans-serif;
+ 	background: #ffcccc;
+ }
+
+footer {
+	float: left;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 5px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.sidebar {
+	margin-right: 10px;
+	margin-top: 5px;
+	background-color:rgba(255, 255, 255, 0.8); 
+	width: 28%;
+	float: right;
+}
+
+.img1 {
+	width: 100%;
+	height: 100%;
+	border-radius: 35px;
+	position: relative;
+	background-image: url('images/korean.jpg');
+	opacity: 0.75;
+}
+
+.img2 {
+	width: 100%;
+	height: 350px;
+	border-radius: 35px;
+	position: relative;
+	background-image: url('images/beach2.jpg');
+	opacity: 0.85;
+}
+
+.img3 {
+	width: 100%;
+	height: 350px;
+	border-radius: 35px;
+	position: relative;
+	background-image: url('images/food.jpg');
+	opacity: 0.85;
+}
+
+.overlay-text {
+	text-align: center;
+	color: #fafafa;
+	font-family: 'Dosis', sans-serif;
+	font-size: 50px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
